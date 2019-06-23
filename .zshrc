@@ -1,9 +1,9 @@
 # Created by newuser for 5.3.1
 #
 # golang環境変数設定
-export GOENV_ROOT=$HOME/.goenv
-export PATH=$GOENV_ROOT/bin:$PATH
-eval "$(goenv init -)"
+#export GOENV_ROOT=$HOME/.goenv
+#export PATH=$GOENV_ROOT/bin:$PATH
+#eval "$(goenv init -)"
 export GOPATH="/mnt/c/DEV/workspace/GO"
 export PATH="$GOPATH/bin:$PATH"
 
