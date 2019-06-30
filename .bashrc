@@ -124,7 +124,7 @@ export PATH="$(rbenv root)/shims:$PATH"
 eval "$(rbenv init -)"
 
 alias grep='grep --color=auto'
-alias alias open="cmd.exe /c start"
+alias open="cmd.exe /c start"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/ochi/.sdkman"
