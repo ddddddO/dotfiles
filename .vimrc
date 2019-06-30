@@ -30,6 +30,9 @@ call plug#begin('~/.vim/plugged')
 
   "vim-go 以下使い方(mac側には{ 'do:～)は入れていない
   "https://qiita.com/gorilla0513/items/a027885d03af0d6d5863
+  
+  "オムニ補完(C-x C-o)
+  "https://qiita.com/koara-local/items/6c886eccfb459159c431
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
 
