@@ -123,10 +123,12 @@ export PATH="$GOPATH/bin:$PATH"
 export PATH="$(rbenv root)/shims:$PATH"
 eval "$(rbenv init -)"
 
-
 alias grep='grep --color=auto'
 alias alias open="cmd.exe /c start"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/ochi/.sdkman"
 [[ -s "/home/ochi/.sdkman/bin/sdkman-init.sh" ]] && source "/home/ochi/.sdkman/bin/sdkman-init.sh"
+
+# Gitブランチ名タブ補完
+source ~/.git-completion.bash
