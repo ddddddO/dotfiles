@@ -28,9 +28,10 @@ call plug#begin('~/.vim/plugged')
   Plug 'junegunn/vim-plug',
         \ {'dir': '~/.vim/plugged/vim-plug/autoload'}
 
-  "vim-go 以下使い方(mac側には{ 'do:～)は入れていない
+  "vim-go 以下使い方(重要)
   "https://qiita.com/gorilla0513/items/a027885d03af0d6d5863
-  
+  " Ctl + ]  定義先ジャンプ
+  " Ctl + o  戻る
   "オムニ補完(C-x C-o)
   "https://qiita.com/koara-local/items/6c886eccfb459159c431
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
