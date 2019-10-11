@@ -1,8 +1,6 @@
 set tabstop=4 "タブ幅を４スペースにする
 set shiftwidth=4 "vimで読み込むときタブ幅を４にする
-
 set number "行番号表示
-
 set bs=2 "backspaceで改行削除
 
 syntax on "vim 色がつく"
@@ -35,5 +33,7 @@ call plug#begin('~/.vim/plugged')
   "オムニ補完(C-x C-o)
   "https://qiita.com/koara-local/items/6c886eccfb459159c431
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-call plug#end()
 
+  "https://github.com/junegunn/goyo.vim"
+  Plug 'junegunn/goyo.vim'
+call plug#end()
