@@ -134,3 +134,5 @@ export SDKMAN_DIR="/home/ochi/.sdkman"
 
 # Gitブランチ名タブ補完
 source ~/.git-completion.bash
+# kubectlタブ補完
+source <(kubectl completion bash)
